@@ -180,6 +180,16 @@ p.Available > span{
     background-color: green;
 }
 
+p.price > span{
+    background-color: black;
+    width: 7px;
+    height: 7px;
+    margin-right: 0;
+    margin-bottom: 3px;
+    margin-left: 2px;
+
+}
+
 button#exportAndSend{
     background-color: black;
     color: white;
