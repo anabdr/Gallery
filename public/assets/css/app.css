@@ -1,0 +1,230 @@
+html,body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+body {
+    display: flex;
+    flex-flow: column;
+}
+.content {
+    flex-grow: 1;
+}
+
+
+/* NAVBAR */
+.navbar {
+    width: 200px;
+    height: auto;
+    padding: 40px;
+    background-color: black;
+}
+.navbar > img {
+    width: -webkit-fill-available;
+    margin-bottom: 20px;
+}
+.navbar > ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.navbar ul li{
+    color: white;
+    border: 0px;
+    background-color: black;
+    text-align: left;
+}
+
+/* MENU */
+.content > .menu > ul li:last-child {
+    border-right: 3px solid black;
+}
+.content > .menu >ul > li {
+    list-style: none;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 10px 15px;
+    background-color: #8080804a;
+    border-top: 0px;
+}
+.menu h1 {
+    margin: 0;
+}
+.menu ul {
+    display: flex;
+    border-top: 4px solid black;
+}
+.menu-content {
+    padding: 30px;
+    flex-grow: 1;
+}
+.menu {
+    margin-bottom: 40px;
+}
+.menu-content h5 {
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.menu-content h6 {
+    font-size: 15px;
+    margin: 0;
+    color: gray;
+}
+
+/* FORMULARIO  */
+form#saveForm {
+    margin-left: 40px;
+}
+
+div.containerImg {
+    max-width: 500px;
+    background-color: black;
+    max-height: 500px;
+    margin-right: 40px;
+}
+.containerImg > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.info h1 {
+    margin: 0 0 25px 0;
+    font-size: 40px;
+}
+div.containerInfo {    
+    margin-right: 2%;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;   
+}
+.actions {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: fit-content;
+    margin-bottom: 30px;
+}
+.actions input {
+    border: 0;
+    padding: 15px 40px;
+    border-right: 2px solid black;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+}
+.actions #cancel {
+    border: 0px;
+    padding: 10px 40px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.formActions {
+    display: flex;
+    align-items: center;
+}
+
+/* PAGINACION */
+.paginator {
+    border: 2px solid black;
+    height: fit-content;
+}
+.paginator button {
+    border: 0px;
+    background-color: white;
+    padding: 7px 12px;
+    font-size: 20px;
+}
+.paginator button:first-child {
+    border-right: 2px solid black;
+}
+div#galleryName {
+    display: flex;
+    height: 500px;
+    margin-left: 40px;
+}
+p#artist{
+    color: orange;
+}
+p#serieName{
+    color: gray;
+}
+svg.iconEdit{
+    height: 32px;
+}
+.container{
+    display: flex;
+    display: flex;
+    flex-grow: 1;
+}
+button#exportPDF{
+    background-color: #d85321;
+    color: white;
+}
+
+p > span {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+p.Reserved > span {
+    background-color: orange;
+}
+
+p.Available > span{
+    background-color: green;
+}
+
+button#exportAndSend{
+    background-color: black;
+    color: white;
+}
+.formActions {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: fit-content;
+}
+.formActions button {
+    padding: 14px 20px;
+    font-size: 18px;
+    border: 0px;
+}
+.formActions a#edit {
+    padding: 6px 10px;
+    border-right: 2px solid black;
+}
+
+li{
+    list-style: none;
+    border: 1px solid black;
+    padding: 7px;
+    background-color: #8080804a;
+}
+
+input.form-control-plaintext,select.form-select  {
+    border:0;
+    border-bottom: solid black;
+    width: 200px;
+}
+.red{
+    color: red;
+}
+
+.mb-3.row {
+    padding: 10px;
+}
+label.col-sm-2.col-form-label, label.form-label {
+    display: inline-block;
+    width: 150px;
+    color: gray;
+}
+select#currency {
+    width: 70px;
+    text-align: center;
+}
